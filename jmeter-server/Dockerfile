@@ -1,5 +1,5 @@
 # Use Ubuntu
-FROM softandbyte/jmbase
+FROM softandbyte/jmeter-base
 MAINTAINER softandbyte
 
 # Ports to be exposed from the container for JMeter Slaves/Server
