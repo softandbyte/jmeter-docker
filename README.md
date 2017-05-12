@@ -6,13 +6,13 @@ More details on using this docker image is [here](http://www.testautomationguru.
 #To start the master
 
 ```
-sudo docker run -dit --name master vinsdocker/jmmaster /bin/bash
+sudo docker run -dit --name master softandbyte/jmmaster /bin/bash
 ```
 
 #To start slaves
 
 ```
-sudo docker run -dit --name slave01 vinsdocker/jmserver /bin/bash
-sudo docker run -dit --name slave02 vinsdocker/jmserver /bin/bash
-sudo docker run -dit --name slave03 vinsdocker/jmserver /bin/bash
+sudo docker run -dit --name slave01 softandbyte/jmserver /bin/bash
+sudo docker run -dit --name slave02 softandbyte/jmserver /bin/bash
+sudo docker run -dit --name slave03 softandbyte/jmserver /bin/bash
 ```
