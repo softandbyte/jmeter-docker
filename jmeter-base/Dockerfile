@@ -1,6 +1,6 @@
 # Use Ubuntu
 FROM ubuntu
-MAINTAINER TestAutomationGuru
+MAINTAINER softandbyte
 
 # Set newman version
 ENV JMETER_VERSION 3.2
@@ -19,8 +19,8 @@ RUN apt-get clean && \
 RUN   mkdir /jmeter \
       && cd /jmeter/ \
       && wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-${JMETER_VERSION}.tgz \
-      && tar -xzf apache-jmeter-2.13.tgz \
-      && rm apache-jmeter-2.13.tgz \
+      && tar -xzf apache-jmeter-${JMETER_VERSION}.tgz \
+      && rm apache-jmeter-${JMETER_VERSION}.tgz \
 	  && mkdir /jmeter-plugins \
 	  && cd /jmeter-plugins/ \
 	  && wget https://jmeter-plugins.org/downloads/file/JMeterPlugins-ExtrasLibs-1.4.0.zip \
