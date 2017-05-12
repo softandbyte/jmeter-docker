@@ -1,6 +1,6 @@
 # Use Ubuntu
-FROM vinsdocker/jmbase
-MAINTAINER TestAutomationGuru
+FROM softandbyte/jmbase
+MAINTAINER softandbyte
 
 # Ports to be exposed from the container for JMeter Slaves/Server
 EXPOSE 1099 50000
