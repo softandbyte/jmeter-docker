@@ -3,7 +3,7 @@ FROM ubuntu
 MAINTAINER softandbyte
 
 # Set newman version
-ENV JMETER_VERSION 3.2
+ENV JMETER_VERSION 3.3
 
 # Install wger & JRE
 RUN apt-get clean && \
